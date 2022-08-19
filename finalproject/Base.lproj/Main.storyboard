@@ -1423,6 +1423,15 @@ print(birthday)
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKO-C1-Gdg">
+                                <rect key="frame" x="137" y="730" width="104" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Home"/>
+                                <connections>
+                                    <segue destination="Uo4-7s-SqT" kind="show" id="Mfg-6r-dEs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v3W-GQ-ihq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1434,12 +1443,12 @@ print(birthday)
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9F5-Bi-HDb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-14601" y="920"/>
+            <point key="canvasLocation" x="-14601.44927536232" y="919.41964285714278"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="BDz-aV-eOQ"/>
-        <segue reference="ahH-t5-dse"/>
+        <segue reference="Mfg-6r-dEs"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Africa" width="1776" height="1294"/>

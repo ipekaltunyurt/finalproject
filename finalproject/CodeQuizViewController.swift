@@ -17,25 +17,29 @@ class CodeQuizViewController: UIViewController {
     
     @IBOutlet weak var YesAnswer: UILabel!
     
-    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        YesAnswer.isHidden = true
+        NoAnswer.isHidden = true
+    }
     
 
   // buttons
        
     
-       @IBAction func YesButton(_ sender: UIButton) {
-       
+    @IBAction func YesButton(_ sender: UIButton) {
+        print("Yes clicked")
        if YesAnswer.isHidden {
-           print ("Yes clicked")
             YesAnswer.isHidden = false
             NoAnswer.isHidden = true
         }
     }
     
     @IBAction func NoButton(_ sender: UIButton) {
-    
+        print("No clicked")
         if NoAnswer.isHidden {
-            print ("No clicked")
+            
             YesAnswer.isHidden = true
             NoAnswer.isHidden = false
     }
