@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F20DA3728AEC1FF00B884EA /* CodeQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F20DA3628AEC1FF00B884EA /* CodeQuizViewController.swift */; };
+		3F20DA3928AF442300B884EA /* QuizGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F20DA3828AF442300B884EA /* QuizGame.swift */; };
 		699904EA28AC1B5200E7A46F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699904E928AC1B5200E7A46F /* AppDelegate.swift */; };
 		699904EC28AC1B5200E7A46F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699904EB28AC1B5200E7A46F /* SceneDelegate.swift */; };
 		699904EE28AC1B5200E7A46F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699904ED28AC1B5200E7A46F /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F20DA3628AEC1FF00B884EA /* CodeQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeQuizViewController.swift; sourceTree = "<group>"; };
+		3F20DA3828AF442300B884EA /* QuizGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGame.swift; sourceTree = "<group>"; };
 		699904E628AC1B5200E7A46F /* finalproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		699904E928AC1B5200E7A46F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		699904EB28AC1B5200E7A46F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				699904F728AC1B5B00E7A46F /* LaunchScreen.storyboard */,
 				699904FA28AC1B5B00E7A46F /* Info.plist */,
 				699904F228AC1B5200E7A46F /* finalproject.xcdatamodeld */,
+				3F20DA3628AEC1FF00B884EA /* CodeQuizViewController.swift */,
+				3F20DA3828AF442300B884EA /* QuizGame.swift */,
 			);
 			path = finalproject;
 			sourceTree = "<group>";
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F20DA3928AF442300B884EA /* QuizGame.swift in Sources */,
 				699904EE28AC1B5200E7A46F /* ViewController.swift in Sources */,
 				699904EA28AC1B5200E7A46F /* AppDelegate.swift in Sources */,
 				699904F428AC1B5200E7A46F /* finalproject.xcdatamodeld in Sources */,
 				699904EC28AC1B5200E7A46F /* SceneDelegate.swift in Sources */,
+				3F20DA3728AEC1FF00B884EA /* CodeQuizViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
