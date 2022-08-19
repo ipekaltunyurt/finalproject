@@ -5,30 +5,39 @@
 //  Created by student on 8/18/22.
 //
 
+
 import UIKit
 
-class CodeQuizViewController: UIViewController {
 
-    @IBOutlet weak var yesText: UITextView!
+class CodeQuizViewController: UIViewController {
+ 
+// labels
+
+    @IBOutlet weak var NoAnswer: UILabel!
     
-    @IBAction func yesClick(_ sender: UIButton) {
-        
-        yesText.text = "yes response"
+    @IBOutlet weak var YesAnswer: UILabel!
+    
+    
+    
+
+  // buttons
+       
+    
+       @IBAction func YesButton(_ sender: UIButton) {
+       
+       if YesAnswer.isHidden {
+           print ("Yes clicked")
+            YesAnswer.isHidden = false
+            NoAnswer.isHidden = true
+        }
     }
     
+    @IBAction func NoButton(_ sender: UIButton) {
     
-    override func viewDidLoad() {
-    //    super.viewDidLoad()
-// Do any additional setup after loading the view.
-   }
+        if NoAnswer.isHidden {
+            print ("No clicked")
+            YesAnswer.isHidden = true
+            NoAnswer.isHidden = false
+    }
 }
-
-
-    
-
-    
-    
-    
-    
-    
-    
+}
