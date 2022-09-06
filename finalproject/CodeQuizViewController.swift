@@ -12,7 +12,12 @@ import UIKit
 class CodeQuizViewController: UIViewController {
  
 // labels
-
+    
+    var currentPage = 0
+    
+    
+    @IBOutlet weak var pageControl: UIPageControl!
+    
     @IBOutlet weak var NoAnswer: UILabel!
     
     @IBOutlet weak var YesAnswer: UILabel!
@@ -20,6 +25,7 @@ class CodeQuizViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        updatePageControl()
         YesAnswer.isHidden = true
         NoAnswer.isHidden = true
     }
@@ -44,4 +50,27 @@ class CodeQuizViewController: UIViewController {
             NoAnswer.isHidden = false
     }
 }
+    
+    
+    @IBAction func BackButton(_ sender: UIButton) {
+        if currentPage > 0
+        {
+            currentPage = currentPage - 1
+            updatePageControl()
+        }
+    }
+    
+    
+    @IBAction func NextButton(_ sender: UIButton) {
+        if currentPage < pageControl.numberOfPages
+        {
+            currentPage += 1
+            updatePageControl()
+        }
+    }
+    
+    func updatePageControl()
+    {
+        pageControl.currentPage = currentPage
+    }
 }

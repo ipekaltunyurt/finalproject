@@ -19,6 +19,8 @@
 		6999050428AC1B5B00E7A46F /* finalprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999050328AC1B5B00E7A46F /* finalprojectTests.swift */; };
 		6999050E28AC1B5B00E7A46F /* finalprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999050D28AC1B5B00E7A46F /* finalprojectUITests.swift */; };
 		6999051028AC1B5B00E7A46F /* finalprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6999050F28AC1B5B00E7A46F /* finalprojectUITestsLaunchTests.swift */; };
+		69B0AE3328C7E5220090379B /* RandomQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0AE3228C7E5220090379B /* RandomQuoteViewController.swift */; };
+		69B0AE3528C7E56F0090379B /* randomQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B0AE3428C7E56F0090379B /* randomQuote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		6999050928AC1B5B00E7A46F /* finalprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6999050D28AC1B5B00E7A46F /* finalprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalprojectUITests.swift; sourceTree = "<group>"; };
 		6999050F28AC1B5B00E7A46F /* finalprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		69B0AE3228C7E5220090379B /* RandomQuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteViewController.swift; sourceTree = "<group>"; };
+		69B0AE3428C7E56F0090379B /* randomQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomQuote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,8 @@
 		699904DD28AC1B5200E7A46F = {
 			isa = PBXGroup;
 			children = (
+				69B0AE3228C7E5220090379B /* RandomQuoteViewController.swift */,
+				69B0AE3428C7E56F0090379B /* randomQuote.swift */,
 				699904E828AC1B5200E7A46F /* finalproject */,
 				6999050228AC1B5B00E7A46F /* finalprojectTests */,
 				6999050C28AC1B5B00E7A46F /* finalprojectUITests */,
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B0AE3328C7E5220090379B /* RandomQuoteViewController.swift in Sources */,
 				3F20DA3928AF442300B884EA /* QuizGame.swift in Sources */,
 				699904EE28AC1B5200E7A46F /* ViewController.swift in Sources */,
+				69B0AE3528C7E56F0090379B /* randomQuote.swift in Sources */,
 				699904EA28AC1B5200E7A46F /* AppDelegate.swift in Sources */,
 				699904F428AC1B5200E7A46F /* finalproject.xcdatamodeld in Sources */,
 				699904EC28AC1B5200E7A46F /* SceneDelegate.swift in Sources */,
